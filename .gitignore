@@ -1,0 +1,12 @@
+# Archivos y carpetas ignoradas por Git
+__pycache__/
+*.pyc
+.DS_Store
+
+# Archivos de entorno virtual de Python
+venv/
+env/
+
+# IGNORAR SECRETS: Aunque usamos env, por si acaso
+*.env
+.secret
